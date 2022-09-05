@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: const Text('Word Generator'),
+          backgroundColor:Colors.deepOrange,
         ),
         body: const Center(
           child: RandomWords(),
